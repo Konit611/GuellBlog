@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "tailwindcss/tailwind.css";
+
+@layer components {
+  .nav-link {
+    @apply hover:bg-gray-300 p-2 rounded transition duration-200 ease-in-out;
+  }
+}
